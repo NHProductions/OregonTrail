@@ -3,7 +3,7 @@ This is a port of the original 1985 Oregon Trail for the TI-84 CE.
 It's not the most accurate to the original game, & some features are missing (Like scoring, resting, trading, talking to people), but most of the core features like hunting, the trail, purchasing supplies, & events are still there.
 
 ### Installation Directions:
-Get Cesium (Or some other Ti-84 CE Shell), & import OREGON.8xp.
+Get Cesium (Or some other Ti-84 CE Shell), & import OREGON.8xp from /INSTALLFILES.
 The other files are image files; mostly for the pictures of the landmarks; but some area actually important to have
 
 # Recommended Sprite Files to Add:
