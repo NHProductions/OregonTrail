@@ -1,0 +1,818 @@
+palettes:
+  - name: global_palette
+    max-entries: 256
+    fixed-entries:
+      - color: { index: 0, r: 255, g: 0, b: 128 } # transparent
+      - color: { index: 1, r: 128, g: 128, b: 128 }
+      - color: { index: 2, r: 0, g: 0, b: 0} # black
+      - color: { index: 3, r: 255, g: 255, b: 255}
+      - color: { index: 4, r: 255, g: 0, b: 0}
+      - color: { index: 5, r: 0, g: 255, b: 0}
+      - color: { index: 6, r: 64, g: 178, b: 255}
+      - color: { index: 7, r: 255, g: 255, b: 0}
+    images: automatic
+converts:
+  - name: wagon1
+    palette: global_palette
+    style: rlet
+    images:
+      - fs/wagon1.png
+  - name: wagon2
+    palette: global_palette
+    style: rlet
+    images:
+      - fs/wagon2.png
+  - name: kansas1
+    palette: global_palette
+    style: rlet
+    images:
+      - fs/kansas1.png
+  - name: kansas2
+    palette: global_palette
+    style: rlet
+    images:
+      - fs/kansas2.png
+  - name: chimney1
+    palette: global_palette
+    style: rlet
+    images:
+      - fs/chimney1.png
+  - name: chimney2
+    palette: global_palette
+    style: rlet
+    images:
+      - fs/chimney2.png
+  - name: kearney1
+    palette: global_palette
+    style: rlet
+    images:
+      - fs/kearney1.png
+  - name: kearney2
+    palette: global_palette
+    style: rlet
+    images:
+      - fs/kearney2.png
+  - name: independence1
+    palette: global_palette
+    style: rlet
+    images:
+      - fs/independenceMissouri1.png
+  - name: independence2
+    palette: global_palette
+    style: rlet
+    images:
+      - fs/independenceMissouri2.png
+  - name: title1
+    palette: global_palette
+    style: rlet
+    transparent-color-index: 0
+    images:
+      - gui/title1.png
+  - name: grave
+    palette: global_palette
+    style: rlet
+    transparent-color-index: 0
+    images:
+      - gui/grave.png
+  - name: title2
+    palette: global_palette
+    style: rlet
+    transparent-color-index: 0
+    images:
+      - gui/title2.png
+  - name: flair1
+    palette: global_palette
+    style: rlet
+    transparent-color-index: 0
+    images:
+      - gui/flair1.png
+  - name: flair2
+    palette: global_palette
+    style: rlet
+    transparent-color-index: 0
+    images:
+      - gui/flair2.png
+  - name: matt
+    palette: global_palette
+    style: rlet
+    transparent-color-index: 0
+    images:
+      - gui/matt.png
+  - name: bn1
+    palette: global_palette
+    transparent-color-index: 0
+    images:
+      - hunting/bn1.png
+  - name: bn2
+    palette: global_palette
+    transparent-color-index: 0
+    images:
+      - hunting/bn2.png
+  - name: bn3
+    palette: global_palette
+    transparent-color-index: 0
+    images:
+      - hunting/bn3.png
+  - name: bnDead
+    palette: global_palette
+    transparent-color-index: 0
+    images:
+      - hunting/bnDead.png
+  - name: rb1
+    palette: global_palette
+    transparent-color-index: 0
+    images:
+      - hunting/rb1.png
+  - name: rb2
+    palette: global_palette
+    transparent-color-index: 0
+    images:
+      - hunting/rb2.png
+  - name: rb3
+    palette: global_palette
+    transparent-color-index: 0
+    images:
+      - hunting/rb3.png
+  - name: rbDead
+    palette: global_palette
+    transparent-color-index: 0
+    images:
+      - hunting/rbDead.png
+  - name: dr1
+    palette: global_palette
+    transparent-color-index: 0
+    images:
+      - hunting/dr1.png
+  - name: dr2
+    palette: global_palette
+    transparent-color-index: 0
+    images:
+      - hunting/dr2.png
+  - name: dr3
+    palette: global_palette
+    transparent-color-index: 0
+    images:
+      - hunting/dr3.png
+  - name: drDead
+    palette: global_palette
+    transparent-color-index: 0
+    images:
+      - hunting/drDead.png
+  - name: sq1
+    palette: global_palette
+    transparent-color-index: 0
+    images:
+      - hunting/sq1.png
+  - name: sq2
+    palette: global_palette
+    transparent-color-index: 0
+    images:
+      - hunting/sq2.png
+  - name: sq3
+    palette: global_palette
+    transparent-color-index: 0
+    images:
+      - hunting/sq3.png
+  - name: sqDead
+    palette: global_palette
+    transparent-color-index: 0
+    images:
+      - hunting/sqDead.png
+  - name: grass1
+    palette: global_palette
+    transparent-color-index: 0
+    images:
+      - hunting/grass1.png
+  - name: grass3
+    palette: global_palette
+    transparent-color-index: 0
+    images:
+      - hunting/grass3.png
+  - name: grass2
+    palette: global_palette
+    transparent-color-index: 0
+    images:
+      - hunting/grass2.png
+  - name: tree1
+    palette: global_palette
+    transparent-color-index: 0
+    images:
+      - hunting/tree1.png
+  - name: hunterN1
+    palette: global_palette
+    transparent-color-index: 0
+    images:
+      - hunter/hunterN1.png
+  - name: hunterN2
+    palette: global_palette
+    transparent-color-index: 0
+    images:
+      - hunter/hunterN2.png
+  - name: hunterN3
+    palette: global_palette
+    transparent-color-index: 0
+    images:
+      - hunter/hunterN3.png
+  - name: hunterNE1
+    palette: global_palette
+    transparent-color-index: 0
+    images:
+      - hunter/hunterNE1.png
+  - name: hunterNE2
+    palette: global_palette
+    transparent-color-index: 0
+    images:
+      - hunter/hunterNE2.png
+  - name: hunterNE3
+    palette: global_palette
+    transparent-color-index: 0
+    images:
+      - hunter/hunterNE3.png
+  - name: hunterNW1
+    palette: global_palette
+    transparent-color-index: 0
+    images:
+      - hunter/hunterNW1.png
+  - name: hunterNW2
+    palette: global_palette
+    transparent-color-index: 0
+    images:
+      - hunter/hunterNW2.png
+  - name: hunterNW3
+    palette: global_palette
+    transparent-color-index: 0
+    images:
+      - hunter/hunterNW3.png
+  - name: hunterS1
+    palette: global_palette
+    transparent-color-index: 0
+    images:
+      - hunter/hunterS1.png
+  - name: hunterS2
+    palette: global_palette
+    transparent-color-index: 0
+    images:
+      - hunter/hunterS2.png
+  - name: hunterS3
+    palette: global_palette
+    transparent-color-index: 0
+    images:
+      - hunter/hunterS3.png
+  - name: hunterSW1
+    palette: global_palette
+    transparent-color-index: 0
+    images:
+      - hunter/hunterSW1.png
+  - name: hunterSW2
+    palette: global_palette
+    transparent-color-index: 0
+    images:
+      - hunter/hunterSW2.png
+  - name: hunterSW3
+    palette: global_palette
+    transparent-color-index: 0
+    images:
+      - hunter/hunterSW3.png
+  - name: hunterSE1
+    palette: global_palette
+    transparent-color-index: 0
+    images:
+      - hunter/hunterSE1.png
+  - name: hunterSE2
+    palette: global_palette
+    transparent-color-index: 0
+    images:
+      - hunter/hunterSE2.png
+  - name: hunterSE3
+    palette: global_palette
+    transparent-color-index: 0
+    images:
+      - hunter/hunterSE3.png
+  - name: hunterE1
+    palette: global_palette
+    transparent-color-index: 0
+    images:
+      - hunter/hunterE1.png
+  - name: hunterE2
+    palette: global_palette
+    transparent-color-index: 0
+    images:
+      - hunter/hunterE2.png
+  - name: hunterE3
+    palette: global_palette
+    transparent-color-index: 0
+    images:
+      - hunter/hunterE3.png
+  - name: hunterW1
+    palette: global_palette
+    transparent-color-index: 0
+    images:
+      - hunter/hunterW1.png
+  - name: hunterW2
+    palette: global_palette
+    transparent-color-index: 0
+    images:
+      - hunter/hunterW2.png
+  - name: hunterW3
+    palette: global_palette
+    transparent-color-index: 0
+    images:
+      - hunter/hunterW3.png
+  - name: ox1
+    palette: global_palette
+    transparent-color-index: 0
+    images:
+      - other/ox1.png
+  - name: ox2
+    palette: global_palette
+    transparent-color-index: 0
+    images:
+      - other/ox2.png
+  - name: ox3
+    palette: global_palette
+    transparent-color-index: 0
+    images:
+      - other/ox3.png
+  - name: rock
+    palette: global_palette
+    transparent-color-index: 0
+    images:
+      - other/rock.png
+  - name: fort
+    palette: global_palette
+    transparent-color-index: 0
+    images:
+      - other/fort.png
+  - name: river
+    palette: global_palette
+    transparent-color-index: 0
+    images:
+      - other/river.png
+  - name: travelGrass1
+    palette: global_palette
+    transparent-color-index: 0
+    images:
+      - other/travelGrass1.png
+  - name: travelGrass2
+    palette: global_palette
+    transparent-color-index: 0
+    images:
+      - other/travelGrass2.png
+  - name: ford
+    palette: global_palette
+    transparent-color-index: 0
+    images:
+      - other/ford.png
+  - name: caulk
+    palette: global_palette
+    transparent-color-index: 0
+    images:
+      - other/caulk.png
+  - name: ferry
+    palette: global_palette
+    transparent-color-index: 0
+    images:
+      - other/ferry.png
+  - name: boise1
+    palette: global_palette
+    style: rlet
+    images:
+      - fs/boise1.png
+  - name: boise2
+    palette: global_palette
+    style: rlet
+    images:
+      - fs/boise2.png
+  - name: bridger1
+    palette: global_palette
+    style: rlet
+    images:
+      - fs/bridger1.png
+  - name: bridger2
+    palette: global_palette
+    style: rlet
+    images:
+        - fs/bridger2.png
+  - name: greenriver1
+    palette: global_palette
+    style: rlet
+    images:
+        - fs/greenriver1.png
+  - name: greenriver2
+    palette: global_palette
+    style: rlet
+    images:
+        - fs/greenriver2.png
+  - name: hall1
+    palette: global_palette
+    style: rlet
+    images:
+        - fs/hall1.png
+  - name: hall2
+    palette: global_palette
+    style: rlet
+    images:
+        - fs/hall2.png
+  - name: independenceMissouri1
+    palette: global_palette
+    style: rlet
+    images:
+         - fs/independenceMissouri1.png
+  - name: independenceMissouri2
+    palette: global_palette
+    style: rlet
+    images:
+         - fs/independenceMissouri2.png
+  - name: independenceRock1
+    palette: global_palette
+    style: rlet
+    images:
+         - fs/independenceRock1.png
+  - name: independenceRock2
+    palette: global_palette
+    style: rlet
+    images:
+         - fs/independenceRock2.png
+  - name: laramie1
+    palette: global_palette
+    style: rlet
+    images:
+         - fs/laramie1.png
+  - name: laramie2
+    palette: global_palette
+    style: rlet
+    images:
+         - fs/laramie2.png
+  - name: oregon1
+    palette: global_palette
+    style: rlet
+    images:
+         - fs/oregon1.png
+  - name: oregon2
+    palette: global_palette
+    style: rlet
+    images:
+         - fs/oregon2.png
+  - name: snake1
+    palette: global_palette
+    style: rlet
+    images:
+         - fs/snake1.png
+  - name: snake2
+    palette: global_palette
+    style: rlet
+    images:
+         - fs/snake2.png
+  - name: soda1
+    palette: global_palette
+    style: rlet
+    images:
+         - fs/soda1.png
+  - name: soda2
+    palette: global_palette
+    style: rlet
+    images:
+         - fs/soda2.png
+  - name: southpass1
+    palette: global_palette
+    style: rlet
+    images:
+         - fs/southpass1.png
+  - name: southpass2
+    palette: global_palette
+    style: rlet
+    images:
+         - fs/southpass2.png
+  - name: walla1
+    palette: global_palette
+    style: rlet
+    images:
+         - fs/walla1.png
+  - name: walla2
+    palette: global_palette
+    style: rlet
+    images:
+        - fs/walla2.png
+  - name: blue1
+    palette: global_palette
+    style: rlet
+    images:
+         - fs/blue1.png
+  - name: blue2
+    palette: global_palette
+    style: rlet
+    images:
+        - fs/blue2.png
+outputs:
+  - type: c
+    include-file: gfx.h
+    palettes:
+      - global_palette
+    converts:
+      - bn1
+      - bn2
+      - bn3
+      - bnDead
+      - dr1
+      - dr2
+      - dr3
+      - drDead
+      - grass1
+      - grass2
+      - grass3
+      - rb1
+      - rb2
+      - rb3
+      - rbDead
+      - sq1
+      - sq2
+      - sq3
+      - sqDead
+      - tree1
+      - hunterE1
+      - hunterE2
+      - hunterE3
+      - hunterN1
+      - hunterN2
+      - hunterN3
+      - hunterW1
+      - hunterW2
+      - hunterW3
+      - hunterS1
+      - hunterS2
+      - hunterS3
+      - hunterNE1
+      - hunterNE2
+      - hunterNE3
+      - hunterNW1
+      - hunterNW2
+      - hunterNW3
+      - hunterSE1
+      - hunterSE2
+      - hunterSE3
+      - hunterSW1
+      - hunterSW2
+      - hunterSW3
+      - ox1
+      - ox2
+      - ox3
+      - river
+      - rock
+      - fort
+      - travelGrass1
+      - travelGrass2
+      - ford
+      - ferry
+      - caulk
+  - type: appvar
+    name: WAGON1
+    converts:
+      - wagon1
+    compress: zx0
+  - type: appvar
+    name: WAGON2
+    compress: zx0
+    converts:
+      - wagon2
+  - type: appvar
+    name: STOWN1
+    compress: zx0
+    converts:
+      - independence1
+  - type: appvar
+    name: STOWN2
+    compress: zx0
+    converts:
+      - independence2
+  - type: appvar
+    name: FLAIR1
+    compress: zx0
+    converts:
+      - flair1
+  - type: appvar
+    name: FLAIR2
+    compress: zx0
+    converts:
+      - flair2
+  - type: appvar
+    name: TITLE1
+    compress: zx0
+    converts:
+      - title1
+  - type: appvar
+    name: TITLE2
+    compress: zx0
+    converts:
+      - title2
+  - type: appvar
+    name: MATT
+    compress: zx0
+    converts:
+      - matt
+  - type: appvar
+    name: BOISE1
+    compress: zx0
+    converts:
+            - boise1
+
+  - type: appvar
+    name: BOISE2
+    compress: zx0
+    converts:
+            - boise2
+
+  - type: appvar
+    name: BRIDGER1
+    compress: zx0
+    converts:
+            - bridger1
+
+  - type: appvar
+    name: BRIDGER2
+    compress: zx0
+    converts:
+            - bridger2
+
+  - type: appvar
+    name: CHIMNEY1
+    compress: zx0
+    converts:
+            - chimney1
+
+  - type: appvar
+    name: CHIMNEY2
+    compress: zx0
+    converts:
+            - chimney2
+
+  - type: appvar
+    name: GRIV1
+    compress: zx0
+    converts:
+            - greenriver1
+
+  - type: appvar
+    name: GRIV2
+    compress: zx0
+    converts:
+            - greenriver2
+
+  - type: appvar
+    name: HALL1
+    compress: zx0
+    converts:
+            - hall1
+
+  - type: appvar
+    name: HALL2
+    compress: zx0
+    converts:
+            - hall2
+
+  - type: appvar
+    name: INDEPENDENCEMISSOURI1
+    compress: zx0
+    converts:
+            - independenceMissouri1
+
+  - type: appvar
+    name: INDEPENDENCEMISSOURI2
+    compress: zx0
+    converts:
+            - independenceMissouri2
+
+  - type: appvar
+    name: INDEROK1
+    compress: zx0
+    converts:
+            - independenceRock1
+
+  - type: appvar
+    name: INDEROK2
+    compress: zx0
+    converts:
+            - independenceRock2
+
+  - type: appvar
+    name: KANSAS1
+    compress: zx0
+    converts:
+            - kansas1
+
+  - type: appvar
+    name: KANSAS2
+    compress: zx0
+    converts:
+            - kansas2
+
+  - type: appvar
+    name: KEARNEY1
+    compress: zx0
+    converts:
+            - kearney1
+
+  - type: appvar
+    name: KEARNEY2
+    compress: zx0
+    converts:
+            - kearney2
+
+  - type: appvar
+    name: LARAMIE1
+    compress: zx0
+    converts:
+            - laramie1
+
+  - type: appvar
+    name: LARAMIE2
+    compress: zx0
+    converts:
+            - laramie2
+
+  - type: appvar
+    name: OREGON1
+    compress: zx0
+    converts:
+            - oregon1
+
+  - type: appvar
+    name: OREGON2
+    compress: zx0
+    converts:
+            - oregon2
+
+  - type: appvar
+    name: SNAKE1
+    compress: zx0
+    converts:
+            - snake1
+
+  - type: appvar
+    name: SNAKE2
+    compress: zx0
+    converts:
+            - snake2
+
+  - type: appvar
+    name: SODA1
+    compress: zx0
+    converts:
+            - soda1
+
+  - type: appvar
+    name: SODA2
+    compress: zx0
+    converts:
+            - soda2
+
+  - type: appvar
+    name: SOUTHPASS1
+    compress: zx0
+    converts:
+            - southpass1
+
+  - type: appvar
+    name: SOUTHPASS2
+    compress: zx0
+    converts:
+            - southpass2
+
+  - type: appvar
+    name: WAGON1
+    compress: zx0
+    converts:
+            - wagon1
+
+  - type: appvar
+    name: WAGON2
+    compress: zx0
+    converts:
+            - wagon2
+
+  - type: appvar
+    name: WALLA1
+    compress: zx0
+    converts:
+            - walla1
+
+  - type: appvar
+    name: WALLA2
+    compress: zx0
+    converts:
+            - walla2
+  - type: appvar
+    name: BLUE1
+    compress: zx0
+    converts:
+            - blue1
+
+  - type: appvar
+    name: BLUE2
+    compress: zx0
+    converts:
+            - blue2
+  - type: appvar
+    name: GRAVE
+    compress: zx0
+    converts:
+      - grave
