@@ -8,10 +8,15 @@ The other files are image files; mostly for the pictures of the landmarks; but s
 
 # Recommended Sprite Files to Add:
 TITLE1.8xv & TITLE2.8xv - Title screen
+
 MATT.8xv - It's the picture of the shopkeeper guy that you see.
+
 FLAIR1.8xv & FLAIR2.8xv - The flair thing that you see in some menus.
+
 GRAVE.8xv - It's the grave for the death screen.
+
 WAGON1.8xv & WAGON2.8xv - It's the wagon screen that you see when entering party member names.
+
 STOWN1.8xv & STOWN2.8xv - It's the image of Independence, Missouri that you see before you enter the trail
 
 # Game Size:
