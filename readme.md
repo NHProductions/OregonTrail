@@ -16,5 +16,7 @@ STOWN1.8xv & STOWN2.8xv - It's the image of Independence, Missouri that you see 
 
 # Game Size:
 Base Game (Without any sprite assets) - 44KB
+
 Minimum Sprite Assets - 63KB
+
 All sprite assets - 173KB
